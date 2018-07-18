@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:example="http://schemas.android.com/apk/res/com.troden.thezoo">
+
+    <PreferenceCategory 
+        android:title="Score" >
+    
+        <Preference 
+    	    android:title="Highest Score"
+    	    android:summary="%s" 
+    	    android:key="key_highscore_info" />
+ 	</PreferenceCategory>	   
+</PreferenceScreen>
